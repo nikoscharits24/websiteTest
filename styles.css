@@ -2,6 +2,7 @@ body {
     margin: 0;
     background: #eee;
     font-family: Besley, serif;
+    
   }
 
 .header {
@@ -64,8 +65,69 @@ ul {
 
 button {
     padding: 8px 16px;
-    border-radius: 20%;
+    border-radius: 10%;
+    font-weight: bold;
     color: #fff;
-    background-color: rgb(49, 92, 150);
+    background-color: rgb(0, 110, 255);
     border: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.image-item img {
+    max-width: 100px;
+    height: auto;
+}
+
+.image-item p {
+    margin: 5px 0 0;
+    text-align: center;
+}
+
+.mid-section h1{
+    font-size: 48px;
+    margin-left: 650px;
+}
+
+.quote{
+    margin-top: 100px;
+    background: #E5E7EB;
+}
+
+.quote-sec {
+    margin: 100px 600px;
+    height: 400px;
+  
+}
+
+.quote-sec p{
+    padding-top: 150px;
+    text-align: left;
+    font-style: italic;
+    font-size: 28px;
+    color: #1f2937;
+    font-weight: 100;
+    
+}
+
+.thor {
+    margin-left: 400px;
+    font-weight: bold;
 }
